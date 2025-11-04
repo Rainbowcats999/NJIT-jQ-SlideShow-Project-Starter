@@ -3,7 +3,7 @@ body {
     font-family: 'Century Gothic', sans-serif;
     background-image: url(img/kitty.png);
     animation-name: tiles;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     background-size: 150px;
