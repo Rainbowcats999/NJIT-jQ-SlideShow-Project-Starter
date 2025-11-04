@@ -1,10 +1,15 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
-    background-size: cover;
+    background-image: url(img/kitty.png);
+    animation-name: tiles;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-size: 10%;
     background-attachment: fixed;
 }
+
 
 /* Main container for the slideshow and metadata */
 #photoBooth {
