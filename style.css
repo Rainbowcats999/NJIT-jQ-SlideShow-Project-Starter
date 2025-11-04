@@ -6,8 +6,17 @@ body {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    background-size: 10%;
+    background-size: 150px;
     background-attachment: fixed;
+}
+
+@keyframes tiles{
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 150px;
+    }
 }
 
 
