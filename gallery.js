@@ -39,8 +39,8 @@ function fetchJSON() {
 // Display current photo and metadata
 function swapPhoto() {
   let img = mImages[mCurrentIndex];
-  $('#photo').attr('src', img.imgPath);
-  $('.location').text('Location: ' + img.imgLocation);
+  $('#photo').attr('src', img.imgCat); // updated key
+  $('.location').text('Location: ' + img.imgbreed); // updated key
   $('.description').text('Description: ' + img.description);
   $('.date').text('Date: ' + img.date);
 }
@@ -64,3 +64,4 @@ function startTimer() {
   if (slideshowTimer) clearInterval(slideshowTimer); // Avoid duplicates
   slideshowTimer = setInterval(showNextPhoto, mWaitTime);
 }
+
