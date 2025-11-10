@@ -1,9 +1,9 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url(img/kitty.png);
+    background-image: url(img//purr.avif);
     animation-name: tiles;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     background-size: 150px;
