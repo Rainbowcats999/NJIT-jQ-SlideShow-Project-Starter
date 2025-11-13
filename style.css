@@ -117,7 +117,6 @@ Make it animate nicely. You'll need CSS3 for this */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Light gray behind image */
     border-radius: 8px;
 }
 
