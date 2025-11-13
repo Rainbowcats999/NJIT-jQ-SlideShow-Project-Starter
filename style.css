@@ -109,3 +109,27 @@ Make it animate nicely. You'll need CSS3 for this */
     transform: rotate(270deg);
     transition: transform 0.3s ease;
 }
+
+.photoHolder {
+    width: 100%;
+    height: 380px; /* Keeps slideshow size consistent */
+    overflow: hidden; /* Prevents stretched or overflowing edges */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray behind image */
+    border-radius: 8px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops to fill box while keeping proportions */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.02); /* Subtle zoom when hovered */
+}
