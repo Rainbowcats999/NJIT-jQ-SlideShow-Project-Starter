@@ -8,10 +8,11 @@ $(document).ready(() => {
   $('.details').hide(); // Hide details initially
 
   // Event handlers
-  $('.moreIndicator').click(() => {
-    $('.details').slideToggle(); // Toggle metadata
-    $('.moreIndicator').toggleClass('rot90 rot270'); // Rotate icon
-  });
+ $('.moreIndicator').click(() => {
+    $('.details').slideToggle();             // toggle metadata section
+    $('.moreIndicator').toggleClass('rotRight rotDown'); // rotate arrow
+});
+
 
   $('#nextPhoto').click(showNextPhoto);
   $('#prevPhoto').click(showPrevPhoto);
