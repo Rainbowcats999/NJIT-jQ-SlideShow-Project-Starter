@@ -59,8 +59,19 @@
       "imgbreed": "Norway",
       "description": "Countryside mountains",
       "date": "11/10/25"
+    },
+    {
+      "imgCat": "img/mamacat.jpg",
+      "imgbreed": "Norway",
+      "description": "Countryside mountains",
+      "date": "11/10/25"
+    },
+    {
+      "imgCat": "img/babykitten.jpg",
+      "imgbreed": "Norway",
+      "description": "Countryside mountains",
+      "date": "11/10/25"
     }
-    
   ]
 }
 
