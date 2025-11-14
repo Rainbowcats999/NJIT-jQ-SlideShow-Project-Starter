@@ -4,18 +4,35 @@ const mUrl = 'images.json'; // Local JSON file
 const mWaitTime = 5000; // Slideshow interval in ms
 let slideshowTimer;
 
+// Array of cat sounds
+const catSounds = [
+    'sounds/meow1.mp3',
+    'sounds/meow2.mp3',
+    'sounds/meow3.mp3',
+    'sounds/meow4.mp3'
+];
+
 $(document).ready(() => {
   $('.details').hide(); // Hide details initially
 
-  // Event handlers
- $('.moreIndicator').click(() => {
-    $('.details').slideToggle();             // toggle metadata section
+  // More indicator toggle
+  $('.moreIndicator').click(() => {
+    $('.details').slideToggle();             
     $('.moreIndicator').toggleClass('rotRight rotDown'); // rotate arrow
-});
+  });
 
-
+  // Navigation buttons
   $('#nextPhoto').click(showNextPhoto);
   $('#prevPhoto').click(showPrevPhoto);
+
+  // Sound button click: play random meow
+  $('#soundBtn').click(() => {
+    const randomSound = catSounds[Math.floor(Math.random() * catSounds.length)];
+    const catSound = document.getElementById('catSound');
+    catSound.src = randomSound;
+    catSound.currentTime = 0; // restart if already playing
+    catSound.play();
+  });
 
   // Load JSON data
   fetchJSON();
@@ -65,4 +82,5 @@ function startTimer() {
   if (slideshowTimer) clearInterval(slideshowTimer); // Avoid duplicates
   slideshowTimer = setInterval(showNextPhoto, mWaitTime);
 }
+
 
