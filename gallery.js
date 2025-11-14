@@ -6,10 +6,11 @@ let slideshowTimer;
 
 // Array of cat sounds
 const catSounds = [
-    'sounds/meow1.mp3',
-    'sounds/meow2.mp3',
-    'sounds/meow3.mp3',
-    'sounds/meow4.mp3'
+    'sounds/meow1.wav',
+    'sounds/meow2.wav',
+    'sounds/meow3.wav',
+    'sounds/meow4.wav',
+    'sounds/meow5.wav'
 ];
 
 $(document).ready(() => {
