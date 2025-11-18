@@ -15,19 +15,19 @@
     {
       "imgCat": "img/kitty.jpg",
       "breed": "Calico",
-      "description": "Orange, black, and white triple-color stirped fur, pink nose, pointy ears, ",
+      "description": "Orange, black, and white triple-color stirped fur, pink nose, pointy ears, & green eyes",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/kitty.webp",
-      "breed": "Greece",
-      "description": "Greek coastline",
+      "breed": "Tabby",
+      "description": "White & black and brown striped fur, pointy ears, & green eyes ",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/meowy.webp",
-      "breed": "Hungary",
-      "description": "Budapest skyline",
+      "breed": "Siamese",
+      "description": "Sandy colored fur with brown spots, pointy ears, brown nose, & blue eyes ",
       "date": "11/10/25"
     },
     {
