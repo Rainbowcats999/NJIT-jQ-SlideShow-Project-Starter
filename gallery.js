@@ -59,7 +59,7 @@ function fetchJSON() {
 function swapPhoto() {
   let img = mImages[mCurrentIndex];
   $('#photo').attr('src', img.imgCat); // updated key
-  $('.location').text('Location: ' + img.imgbreed); // updated key
+  $('.breed').text('Breed: ' + img.imgbreed); // updated key
   $('.description').text('Description: ' + img.description);
   $('.date').text('Date: ' + img.date);
 }
