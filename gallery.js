@@ -1,7 +1,7 @@
 let mCurrentIndex = 0; // Tracks the current image index
 let mImages = []; // Array to hold images from JSON
 const mUrl = 'images.json'; // Local JSON file
-const mWaitTime = 5000; // Slideshow interval in ms
+const mWaitTime = 1000; // Slideshow interval in ms
 let slideshowTimer;
 
 // Array of cat sounds
