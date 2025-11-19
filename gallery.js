@@ -1,7 +1,7 @@
 let mCurrentIndex = 0; // Tracks the current image index
 let mImages = []; // Array to hold images from JSON
 const mUrl = 'images.json'; // Local JSON file
-const mWaitTime = 5000; // Slideshow interval in ms
+const mWaitTime = 1000; // Slideshow interval in ms
 let slideshowTimer;
 
 // Array of cat sounds
@@ -59,7 +59,7 @@ function fetchJSON() {
 function swapPhoto() {
   let img = mImages[mCurrentIndex];
   $('#photo').attr('src', img.imgCat); // updated key
-  $('.location').text('Location: ' + img.imgbreed); // updated key
+  $('.breed').text('Breed: ' + img.breed); // updated key
   $('.description').text('Description: ' + img.description);
   $('.date').text('Date: ' + img.date);
 }

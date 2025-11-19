@@ -2,73 +2,73 @@
   "images": [
     {
       "imgCat": "img/blacky.webp",
-      "imgbreed": "Australia",
-      "description": "Loch Ard Gorge",
+      "breed": "Bombay",
+      "description": "Black fur, black nose, pointy ears, & green eyes",
       "date": "11/10/2025"
     },
     {
       "imgCat": "img/kitten.jpg",
-      "imgbreed": "Austria",
-      "description": "Austrian chapel",
+      "breed": "Domestic short hair/ Moggy",
+      "description": "Black and white bi-coloured fur, pink nose, point ears, & green eyes ",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/kitty.jpg",
-      "imgbreed": "Paris",
-      "description": "Eiffel Tower",
+      "breed": "Calico",
+      "description": "Orange, black, and white triple-color stirped fur, pink nose, pointy ears, & green eyes",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/kitty.webp",
-      "imgbreed": "Greece",
-      "description": "Greek coastline",
+      "breed": "Tabby",
+      "description": "White & black and brown striped fur, pointy ears, & green eyes ",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/meowy.webp",
-      "imgbreed": "Hungary",
-      "description": "Budapest skyline",
+      "breed": "Siamese",
+      "description": "Sandy colored fur with brown spots, pointy ears, brown nose, & blue eyes ",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/orangey.jpg",
-      "imgbreed": "India",
+      "breed": "India",
       "description": "Taj Mahal",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/purr.jpg",
-      "imgbreed": "Italy",
+      "breed": "Italy",
       "description": "Venice",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/screamy.jpg",
-      "imgbreed": "Japan",
+      "breed": "Japan",
       "description": "Hirosaki Castle",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/awwwww.jpg",
-      "imgbreed": "South Korea",
+      "breed": "South Korea",
       "description": "Seoul",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/newborn.jpg",
-      "imgbreed": "Norway",
+      "breed": "Norway",
       "description": "Countryside mountains",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/mamacat.jpg",
-      "imgbreed": "Norway",
+      "breed": "Norway",
       "description": "Countryside mountains",
       "date": "11/10/25"
     },
     {
       "imgCat": "img/kittenbaby.jpg",
-      "imgbreed": "Norway",
+      "breed": "Norway",
       "description": "Countryside mountains",
       "date": "11/10/25"
     }
